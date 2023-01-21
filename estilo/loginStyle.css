@@ -183,14 +183,30 @@ label{
     
 }
 
-@media only screen and (max-height: 668px){
-    .btn-login{
-        padding: 10px;
-        margin-top: 20px;
-    }
+footer{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+footer>a{
+    text-decoration: none;
+    color: white;
+}
+footer>a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-height: 668px){   
     .right-inputs > input{
         padding: 13px;
         font-size: 10pt;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .btn-login{
+        padding: 10px;
+        margin-top: 20px;
     }
 
     
