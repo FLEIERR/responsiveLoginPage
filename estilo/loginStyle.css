@@ -186,23 +186,25 @@ label{
 @media only screen and (max-height: 668px){
     .btn-login{
         padding: 10px;
-        margin-top: 5px;
+        margin-top: 20px;
     }
     .right-inputs > input{
         padding: 13px;
         font-size: 10pt;
     }
 
-
+    
 }
 
 @media only screen and (max-height: 600px){
+    
+
     .left{
         width: 60vw;
         height: 100vh;
     }
     .right{
-        width: 70vw;
+        width: 90vw;
         height: 100vh;
 
     }
@@ -225,6 +227,10 @@ label{
 
     img{
         width: 60%;
+    }
+
+    .card{
+        width: 100%;
     }
 }
 
